@@ -1,0 +1,20 @@
+/* colors */
+h1 {
+  font-size: 2rem; }
+
+.headshot img {
+  width: 100%; }
+
+.about h1 {
+  margin: 2rem 0 1rem 0; }
+
+.other img {
+  width: 100%; }
+
+main a {
+  color: #005252;
+  text-decoration: none;
+  font-weight: bold; }
+  main a:hover, main a:focus {
+    color: #005252;
+    text-decoration: underline; }
