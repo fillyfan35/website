@@ -1,0 +1,37 @@
+@import 'bootstrap_styles', 'variables';
+
+h1 {
+  font-size: $font-size;
+}
+
+.headshot {
+  img {
+    width: 100%;
+  }
+}
+
+.about {
+  h1 {
+    margin: $space-two 0 $spacer 0;
+  }
+}
+
+.other {
+  img {
+    width: 100%;
+  }
+}
+
+main {
+  a {
+    color: $hyperlink;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+      color: $hyperlink;
+      text-decoration: underline;
+    }
+  }
+}
